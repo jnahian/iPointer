@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+#initial {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    overflow: hidden;
+    background-image: url(img/mustang-boss-302-1969-218103.jpg);
+    background-position: right;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    cursor: e-resize;
+}
+#initial .changed {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    background-image: url(img/mustang-boss-302-1969-218103-i.jpg);
+    background-position: right;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+}
